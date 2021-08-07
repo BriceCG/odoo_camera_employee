@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+       <template id="camera_script" inherit_id="web.assets_backend" name="camera assets" >
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/camera/static/src/js/camera.js" />
+            </xpath>
+       </template>
+</odoo>
